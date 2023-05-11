@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  background-color: #fff8ff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#my-image {
+  text-align: center;
+  width: 100px;
+  border-radius: 50px;
+  display: block;
+  margin: auto;
+}
+
+#content {
+  text-align: center;
+}
+
+#content2 {
+  text-align: center;
+}
+
+#bio {
+  text-align: center;
+}
+
+#updateButton {
+  /* text-align: center; */
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  background-color: blue;
+  color: #fff8ff;
+}

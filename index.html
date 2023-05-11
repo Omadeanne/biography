@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biography page</title>
+  </head>
+
+  <body>
+    <img src="img/me2.jpeg" id="my-image" />
+
+    <h1 id="content">Ejiba Sandra Chisom</h1>
+    <h2 id="content2">Frontend Developer</h2>
+
+    <p id="bio">i am currently learning Html and CSS</p>
+
+    <button id="updateButton">Update Me</button>
+
+    <script>
+      const updateButton = document.querySelector("#updateButton");
+      const bioText = document.querySelector("#bio");
+
+      updateButton.addEventListener("click", () => {
+        bioText.textContent = "I am currently learning JavaScript";
+      });
+    </script>
+  </body>
+</html>
